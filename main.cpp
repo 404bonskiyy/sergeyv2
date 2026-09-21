@@ -9,18 +9,3 @@ int getRandomNumber(int min, int max)
 
     return dist(gen);
 }
-
-int main()
-{
-    int min, max;
-
-    std::cout << "Enter minimum number: ";
-    std::cin >> min;
-
-    std::cout << "Enter maximum number: ";
-    std::cin >> max;
-
-    std::cout << "Random number: " << getRandomNumber(min, max) << std::endl;
-
-    return 0;
-}
