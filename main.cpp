@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+void calc {
     double a, b;
     char operation;
 
@@ -34,5 +34,4 @@ int main() {
         std::cout << "Error: invalid operation!" << std::endl;
     }
 
-    return 0;
 }
