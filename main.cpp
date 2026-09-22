@@ -1,6 +1,6 @@
 #include <iostream>
 
-void calc {
+void calc() {
     double a, b;
     char operation;
 
